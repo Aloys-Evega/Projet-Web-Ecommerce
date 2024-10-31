@@ -5,10 +5,13 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'noto-serif': ['Noto Serif', 'serif'],
+        'playfair': ['Playfair Display', 'serif'],
+      },
   },
   plugins: [],
-
-  
+}
 }
 

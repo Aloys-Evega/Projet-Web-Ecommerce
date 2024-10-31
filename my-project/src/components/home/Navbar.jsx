@@ -15,7 +15,7 @@ export const Navbar = () => {
 
   return (
     <div>
-        <div className="nav-bar flex items-center justify-between  px-8 py-4 bg-slate-500">
+        <div className="nav-bar flex items-center justify-between  px-8 py-4 border font-playfair">
              
            <div className="flex items-center space-x-11">
                  {/* ici c'est la section du logo de la société probablement Tchope et yamo */}
@@ -28,7 +28,7 @@ export const Navbar = () => {
                     <ul className="flex flex-row space-x-8">
                         <li className="basis-1/3 px-1 py-4">
                             <button
-                            className={`relative ${select === 'Home' ? 'text-white border-b-2' : 'text-gray-400'}`}
+                            className={`relative ${select === 'Home' ? 'text-black border-b-2' : 'text-gray-400'}`}
                             onClick={() => handleSelect('Home')}
                             >
                                 Home
@@ -36,7 +36,7 @@ export const Navbar = () => {
                         </li>
                         <li className="basis-2/3 px-1 py-4">
                             <button
-                            className={`relative ${select === 'Menu' ? 'text-white border-b-2' : 'text-gray-400'}`}
+                            className={`relative ${select === 'Menu' ? 'text-black border-b-2' : 'text-gray-400'}`}
                             onClick={() => handleSelect('Menu')}
                             >
                                 Menu
@@ -44,7 +44,7 @@ export const Navbar = () => {
                         </li>
                         <li className="basis-3/3 px-1 py-4">
                             <button
-                            className={`relative ${select === 'About' ? 'text-white border-b-2' : 'text-gray-400'}`}
+                            className={`relative ${select === 'About' ? 'text-black border-b-2' : 'text-gray-400'}`}
                             onClick={() => handleSelect('About')}
                             >
                                 About

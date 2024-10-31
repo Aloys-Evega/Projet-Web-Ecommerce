@@ -14,8 +14,8 @@ export const Navbar = () => {
 
 
   return (
-    <div>
-        <div className="nav-bar flex items-center justify-between  px-8 py-4 border font-playfair">
+    <div className="mx-11">
+        <div className="nav-bar flex items-center justify-between  px-8 py-4 border-b-2 font-playfair">
              
            <div className="flex items-center space-x-11">
                  {/* ici c'est la section du logo de la société probablement Tchope et yamo */}
@@ -50,6 +50,7 @@ export const Navbar = () => {
                                 About
                             </button>
                         </li>
+                        
                     </ul>
                 </div>
            </div>

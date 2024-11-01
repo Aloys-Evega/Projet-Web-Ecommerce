@@ -1,9 +1,9 @@
 import React from 'react'
 import MenuHero from './MenuHero'
 import MenuBeignet from './MenuBeignet'
-import { MenuBoissons } from './MenuBoissons'
-import { MenuSalades } from './MenuSalades'
-import { MenuComposer } from './MenuComposer'
+import { MenuFooter } from './MenuFooter'
+import MenuBoissons from './MenuBoissons'
+import MenuSalades from './MenuSalades'
 
 
 export const Menu = () => {
@@ -13,7 +13,8 @@ export const Menu = () => {
         <MenuBeignet/>
         <MenuBoissons/>
         <MenuSalades/>
-        <MenuComposer/>
+        {/* <MenuComposer/> */}
+        <MenuFooter/>
     </div>
   )
 }

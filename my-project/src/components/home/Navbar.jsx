@@ -61,8 +61,8 @@ export const Navbar = () => {
                                     className={`relative ${select === 'About' ? 'text-black border-b-2' : 'text-gray-400'}`}
                                     onClick={() => handleSelect('About')}
                                 >
-                                    <Link to="/about">
-                                        About
+                                    <Link to="/parrainage">
+                                        Parrainage
                                     </Link>
                                 </button>
                             </li>

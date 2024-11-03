@@ -2,6 +2,18 @@ import React from 'react'
 
 export const MainParrainage = () => {
   return (
-    <div>MainParrainage</div>
+    <div>
+        <div className="main">
+            <div className="card">
+
+            </div>
+            <div className="card">
+
+            </div>
+            <div className="card">
+                
+            </div>
+        </div>
+    </div>
   )
 }

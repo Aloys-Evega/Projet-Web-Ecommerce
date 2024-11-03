@@ -28,7 +28,7 @@ const MenuCard = ({ name, price, originalPrice, rating, setRating, onClick }) =>
           <FontAwesomeIcon
             key={index}
             icon={faStar}
-            onClick={() => setRating(index + 1)}
+            onClick={() => index + 1}
             className={`cursor-pointer ${
               index < rating ? 'text-yellow-500' : 'text-gray-300'
             }`}
@@ -96,7 +96,7 @@ export const Hero2 = () => {
         </div>
       </section>
 
-      <section className="font-playfair mt-8">
+      <section className="font-playfair mt-20">
         <h1 className="text-2xl font-noto-serif text-center">Bienvenue dans notre menu</h1>
         <p className="text-lg font-noto-serif text-center px-80">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti commodi adipisci quasi, id debitis animi facere eaque excepturi nobis nulla iusto ipsam quisquam sapiente et! Nisi placeat voluptatibus magnam veritatis.

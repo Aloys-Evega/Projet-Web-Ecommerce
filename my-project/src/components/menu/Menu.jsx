@@ -1,9 +1,9 @@
 import React from 'react'
 import MenuHero from './MenuHero'
-import MenuBeignet from './MenuBeignet'
 import { MenuFooter } from './MenuFooter'
 import MenuBoissons from './MenuBoissons'
 import MenuSalades from './MenuSalades'
+import { MenuBeignet } from './MenuBeignet'
 
 
 export const Menu = () => {
